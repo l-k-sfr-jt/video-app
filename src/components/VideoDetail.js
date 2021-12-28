@@ -2,7 +2,7 @@ import React, {Fragment} from "react";
 
 
 const VideoDetail = ({video}) => {
-    if(video === null) {
+    if(!video) {
         return  <div className='ui header'>Loading...</div>
     }
 
